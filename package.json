@@ -9,8 +9,8 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   },
-  "name": "task-maker",
-  "description": "each section is it's own js file and in one file will be the code to create a new task that will be imported to each file that needs it",
+  "name": "",
+  "description": "",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "dependencies": {
