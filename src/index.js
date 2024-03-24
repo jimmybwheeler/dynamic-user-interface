@@ -1,1 +1,1 @@
-console.log('test');
+import './navbar.js';
