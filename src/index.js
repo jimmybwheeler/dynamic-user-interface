@@ -1,2 +1,2 @@
-import './navbar.js';
-import './styles.css';
+import "./navbar.js";
+import "./styles.css";
