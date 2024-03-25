@@ -23,3 +23,6 @@ body {
 .navBar div:hover {
   color: gray;
 }
+.invisible {
+  display: none;
+}
