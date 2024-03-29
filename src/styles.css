@@ -19,21 +19,24 @@ body {
   flex: 1;
   font-size: 3rem;
   height: 4rem;
+  border: 1px solid orange;
 }
 .navBar div:hover {
   color: gray;
 }
-.invisible {
-  display: none;
-}
-.showDropDownMenu {
+.dropDownMenu {
+  border: 1px solid red;
   list-style: none;
   display: block;
   position: absolute;
   background-color: black;
   font-size: 1.5rem;
   top: 4rem;
+  z-index: 1;
   width: 8rem;
   text-align: center;
   color: white;
+}
+.dropDownMenu {
+  display: none;
 }
