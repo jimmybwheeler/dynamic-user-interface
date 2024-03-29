@@ -24,19 +24,20 @@ body {
 .navBar div:hover {
   color: gray;
 }
+
 .dropDownMenu {
+  display: none;
+}
+.showDropDownMenu {
   border: 1px solid red;
   list-style: none;
   display: block;
   position: absolute;
   background-color: black;
   font-size: 1.5rem;
-  top: 4rem;
+  top: 3.8rem;
   z-index: 1;
   width: 8rem;
   text-align: center;
   color: white;
-}
-.dropDownMenu {
-  display: none;
 }
