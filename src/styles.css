@@ -20,18 +20,15 @@ body {
   font-size: 3rem;
   height: 4rem;
   border: 1px solid orange;
+  position: relative;
 }
 .navBar div:hover {
   color: gray;
 }
-
 .dropDownMenu {
-  display: none;
-}
-.showDropDownMenu {
+  display: block;
   border: 1px solid red;
   list-style: none;
-  display: block;
   position: absolute;
   background-color: black;
   font-size: 1.5rem;
@@ -40,4 +37,7 @@ body {
   width: 8rem;
   text-align: center;
   color: white;
+}
+.hideDropDownMenu {
+  display: none;
 }
