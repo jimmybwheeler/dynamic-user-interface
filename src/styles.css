@@ -27,3 +27,6 @@ body {
   padding: 0.4rem 2rem;
   text-align: center;
 }
+.showDropDown {
+  display: block;
+}
