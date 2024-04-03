@@ -12,4 +12,5 @@ function showDropDown() {
 function showItemOne() {
   console.log("test");
   document.body.style.backgroundColor = "red";
+  document.querySelector('.dropDown').classList.toggle('showDropDown')
 }
