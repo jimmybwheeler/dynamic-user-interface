@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav
   \***********************/
 /***/ (() => {
 
-eval("const menuOne = document.querySelector(\".menuOne\");\nmenuOne.addEventListener(\"click\", showDropDown);\n\nconst dropDownItemOne = document.querySelector(\".dropDownItemOne\");\ndropDownItemOne.addEventListener(\"click\", showItemOne);\n\nfunction showDropDown() {\n  const dropDown = document.querySelector(\".dropDown\");\n  dropDown.classList.toggle(\"showDropDown\");\n}\n\nfunction showItemOne() {\n  console.log(\"test\");\n  document.body.style.backgroundColor = \"red\";\n  document.querySelector('.dropDown').classList.toggle('showDropDown')\n}\n\n\n//# sourceURL=webpack:///./src/navbar.js?");
+eval("const menuOne = document.querySelector(\".menuOne\");\nmenuOne.addEventListener(\"click\", showDropDown);\n\nconst dropDownItems = document.querySelectorAll('.dropDownItem');\ndropDownItems.forEach((item) => {\n    item.addEventListener('click', changeBackgroundColor)\n})\n\nfunction showDropDown() {\n  const dropDown = document.querySelector(\".dropDown\");\n  dropDown.classList.toggle(\"showDropDown\");\n}\n\nfunction changeBackgroundColor() {\n    document.body.style.backgroundColor = `${randomColor()}`;\n    document.querySelector('.dropDown').classList.toggle('showDropDown')\n}\n\nfunction randomColor() {\n    let arr = ['red', 'green', 'blue']\n    return arr[Math.floor(Math.random() * 3)];\n}\n\n//# sourceURL=webpack:///./src/navbar.js?");
 
 /***/ })
 
