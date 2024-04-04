@@ -9,12 +9,12 @@ body {
 .menu {
   background-color: orange;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: relative;
   height: 2rem;
   font-size: 2rem;
-  padding: 0.75rem;
+  padding: 0.75rem 30rem;
 }
 .tShirtMenu:hover {
   cursor: crosshair;
