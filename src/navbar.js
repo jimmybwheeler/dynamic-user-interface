@@ -1,6 +1,12 @@
 const tShirtMenu = document.querySelector(".tShirtMenu");
 tShirtMenu.addEventListener("click", showDropDown);
 
+const pantsMenu = document.querySelector('.pantsMenu')
+pantsMenu.addEventListener("click", showDropDown);
+
+const jacketMenu = document.querySelector('.jacketMenu')
+jacketMenu.addEventListener("click", showDropDown);
+
 const dropDownItems = document.querySelectorAll('.dropDownItem');
 dropDownItems.forEach((item) => {
     item.addEventListener('click', changeBackgroundColor)
