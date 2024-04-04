@@ -1,5 +1,5 @@
-const menuOne = document.querySelector(".menuOne");
-menuOne.addEventListener("click", showDropDown);
+const tShirtMenu = document.querySelector(".tShirtMenu");
+tShirtMenu.addEventListener("click", showDropDown);
 
 const dropDownItems = document.querySelectorAll('.dropDownItem');
 dropDownItems.forEach((item) => {
