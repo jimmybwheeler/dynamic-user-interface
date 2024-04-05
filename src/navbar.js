@@ -20,7 +20,7 @@ dropDownItems.forEach((item) => {
 
 function showDropDown(clothingType) {
   const dropDown = document.querySelector(".dropDown");
-  dropDown.classList.toggle("showDropDown");
+  dropDown.classList.add("showDropDown");
   if(clothingType == 'shirts'){
     console.log('shirts')
   } else if (clothingType == 'pants'){
