@@ -19,14 +19,18 @@ dropDownItems.forEach((item) => {
 })
 
 function showDropDown(clothingType) {
+  const dropDownItems = document.querySelectorAll('.dropDownItem')
   const dropDown = document.querySelector(".dropDown");
   dropDown.classList.add("showDropDown");
   if(clothingType == 'shirts'){
     console.log('shirts')
+    let arr = ['Shirt 1', 'Shirt 2', 'Shirt 3']
   } else if (clothingType == 'pants'){
     console.log('pants')
+    let arr = ['Pants 1', 'Pants 2', 'Pants 3']
   } else if (clothingType == 'jackets'){
     console.log('jackets')
+    let arr = ['Jacket 1', 'Jacket 2', 'Jacket 3']
   }
 }
 
