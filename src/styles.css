@@ -23,8 +23,11 @@ body {
   width: 10rem;
   border-radius: 0 10% 10% 0;
 }
-.tShirtMenu:hover {
+.tShirtMenu:hover, .pantsMenu:hover, .jacketMenu:hover, .dropDownItem:hover {
   cursor: crosshair;
+  color: white;
+  text-shadow: 0 1px 8px black;
+  font-weight: bolder;
 }
 .dropDown {
   display: none;
