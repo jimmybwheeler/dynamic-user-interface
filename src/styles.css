@@ -16,11 +16,11 @@ body {
   align-items: center;
   position: relative;
   height: 50%;
-  font-size: 2rem;
-  gap: 3rem;
-  padding: 3rem 0;
+  font-size: 4rem;
+  gap: 6rem;
+  padding: 6rem 0;
   margin-bottom: 50%;
-  width: 10rem;
+  width: 20rem;
   border-radius: 0 10% 10% 0;
 }
 .tShirtMenu:hover, .pantsMenu:hover, .jacketMenu:hover, .dropDownItem:hover {
@@ -32,22 +32,22 @@ body {
 .dropDown {
   display: none;
   position: absolute;
-  left: 10rem;
+  left: 20rem;
   list-style: none;
   background-color: yellow;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 8rem;
-  gap: 1rem;
-  padding: 1rem 0;
+  width: 16rem;
+  gap: 2rem;
+  padding: 2rem 0;
   border-radius: 0 10% 10% 0;
 }
 .showDropDown {
   display: flex;
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1400px){
   .menu {
     margin-bottom: 50%;
   }
