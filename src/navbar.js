@@ -25,24 +25,24 @@ function showDropDown(clothingType) {
   if (clothingType == "shirts") {
     console.log("shirts");
     let arr = ["Shirt 1", "Shirt 2", "Shirt 3"];
-    let dropDownArr = Array.from(dropDownItems)
-    for(let i = 0; i < dropDownArr.length; i++){
-      dropDownArr[i].innerText = arr[i]
+    let dropDownArr = Array.from(dropDownItems);
+    for (let i = 0; i < dropDownArr.length; i++) {
+      dropDownArr[i].innerText = arr[i];
     }
-    console.log(dropDownArr)
+    console.log(dropDownArr);
   } else if (clothingType == "pants") {
     console.log("pants");
     let arr = ["Pants 1", "Pants 2", "Pants 3"];
-    let dropDownArr = Array.from(dropDownItems)
-    for(let i = 0; i < dropDownArr.length; i++){
-      dropDownArr[i].innerText = arr[i]
+    let dropDownArr = Array.from(dropDownItems);
+    for (let i = 0; i < dropDownArr.length; i++) {
+      dropDownArr[i].innerText = arr[i];
     }
   } else if (clothingType == "jackets") {
     console.log("jackets");
     let arr = ["Jacket 1", "Jacket 2", "Jacket 3"];
-    let dropDownArr = Array.from(dropDownItems)
-    for(let i = 0; i < dropDownArr.length; i++){
-      dropDownArr[i].innerText = arr[i]
+    let dropDownArr = Array.from(dropDownItems);
+    for (let i = 0; i < dropDownArr.length; i++) {
+      dropDownArr[i].innerText = arr[i];
     }
   }
 }

@@ -23,7 +23,10 @@ body {
   width: 20rem;
   border-radius: 0 10% 10% 0;
 }
-.tShirtMenu:hover, .pantsMenu:hover, .jacketMenu:hover, .dropDownItem:hover {
+.tShirtMenu:hover,
+.pantsMenu:hover,
+.jacketMenu:hover,
+.dropDownItem:hover {
   cursor: crosshair;
   color: white;
   text-shadow: 0 1px 8px black;
@@ -47,7 +50,7 @@ body {
   display: flex;
 }
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1400px) {
   .menu {
     margin-bottom: 50%;
     height: 50%;
@@ -65,7 +68,7 @@ body {
     border-radius: 0 10% 10% 0;
   }
 }
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px) {
   .menu {
     height: 50%;
     font-size: 2rem;
@@ -73,9 +76,11 @@ body {
     padding: 3rem 0;
     width: 10rem;
     border-radius: 0 10% 10% 0;
-    
   }
-  .tShirtMenu:hover, .pantsMenu:hover, .jacketMenu:hover, .dropDownItem:hover {
+  .tShirtMenu:hover,
+  .pantsMenu:hover,
+  .jacketMenu:hover,
+  .dropDownItem:hover {
     text-shadow: 0 1px 8px black;
     font-weight: bolder;
   }
